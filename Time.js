@@ -6,7 +6,7 @@ setInterval(getTime, 1000);
                 destTime.setFullYear(currentTime.getFullYear() + 1);
             
             let age = document.getElementById('age');
-            age.innerHTML = `Age : ${destTime.getFullYear()-2001}`;
+            age.innerHTML = `Current Age : ${destTime.getFullYear()-2002}`;
 
             let diffTime = destTime.getTime() - currentTime.getTime();
             let hrs = (Math.floor(((diffTime / 1000) / 60) / 60)).toString();
