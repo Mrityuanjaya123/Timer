@@ -1,7 +1,7 @@
 setInterval(getTime, 1000);
         function getTime() {
             let currentTime = new Date();
-            let destTime = new Date(`${currentTime.getFullYear()}`, "11", "22", "0", "0", "0");
+            let destTime = new Date(`${currentTime.getFullYear()}`, "11", "23", "0", "0", "0");
             if (destTime < currentTime)
                 destTime.setFullYear(currentTime.getFullYear() + 1);
             
